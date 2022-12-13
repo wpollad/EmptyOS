@@ -1,7 +1,7 @@
 const time = document.getElementById("time");
 
 function getCurrentTime() {
-    return new Date().toTimeString().substring(0, 5);
+    return new Date().toTimeString().substring(0, 8);
  }
  
  setInterval(
