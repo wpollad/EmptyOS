@@ -7,6 +7,10 @@ body{
     font-family: 'Mulish', sans-serif;
 }
 
+canvas {
+    position: absolute;
+}
+
 #logo {
     font-size: 5vw;
     position: absolute;
@@ -50,13 +54,6 @@ body{
     width: 25%;
     left: 8%;
     top: 15%;
-}
-
-#quote {
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 1.7vw;
-    text-align: center;
 }
 
 .tile:nth-child(2){
