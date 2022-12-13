@@ -1,5 +1,6 @@
 body{
     background-color: rgb(46, 62, 97);
+    color: rgb(40, 55, 90);
     height: 100%;
     width: 100%;
     margin: 0;
@@ -56,6 +57,13 @@ canvas {
     top: 15%;
 }
 
+#cat-image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 1vw;
+}
+
 .tile:nth-child(2){
     background-color: rgb(167, 202, 227);
     height: 20%;
@@ -72,7 +80,7 @@ canvas {
     text-align: right;
     /* line-height: 14vh; */
     font-size: 3.5vw;
-    background-color: rgb(96,98,165);
+    background-color: rgb(32, 193, 191);
     padding-left: 1px;
     border-radius: 1vw 1vw 0 0;
 }
@@ -93,7 +101,7 @@ canvas {
 }
 
 #equal{
-    background-color: black;
+    background-color: rgb(5, 118, 114);
     color: white;
     border-bottom-right-radius: 1vw;
 }
@@ -115,8 +123,6 @@ canvas {
 #inp {
     font-size: 4vh;
     margin: 1vw 1vw;
-    border: 1px solid rgb(46, 62, 97);
-    /* border-color: rgb(46, 62, 97); */
     border-radius: 1vmax;
 }
 
@@ -140,7 +146,7 @@ canvas {
 #ul li a{
     margin: 0 10px;
     padding: auto;
-    background-color: rgb(46, 62, 97);
+    background-color: rgb(32, 193, 191);
 }
 
 
@@ -156,6 +162,14 @@ table {
     border-collapse: collapse;
 }
 
+#Mo {
+    border-radius: 1vw 0 0 0;
+}
+
+#Su {
+    border-radius: 0 1vw 0 0;
+}
+
 td,th {
     height: 2.7vw;
     width: 7vw;
@@ -164,11 +178,12 @@ td,th {
 }
 
 th {
+    background-color: rgb(32, 193, 191);
     font-weight: bold;
 }
 
 #today{
-    background-color: rgb(236, 233, 217);
+    background-color: rgb(5, 118, 114);
 }
 
 .tile:nth-child(5){

@@ -13,13 +13,13 @@ function createCalendar(elem, year, month, today){
     let table = `
     <table>
         <tr>
-            <th>Mo</th>
+            <th id="Mo">Mo</th>
             <th>Tu</th>
             <th>We</th>
             <th>Th</th>
             <th>Fr</th>
             <th>Sa</th>
-            <th>Su</th>
+            <th id="Su">Su</th>
         </tr>
         <tr>
     `;
