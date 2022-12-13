@@ -6,11 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EmptyOS</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap'); </style>
 </head>
 <body>
     <div id="logo">EmptyOS</div>
     <div id="apps">
-        <div class="tile"></div>
+        <div class="tile">
+            <div class="app" id="draw"></div>
+        </div>
         <div class="tile">
             <div class="app" id="calculator">
                 <div id="display">&nbsp;</div>
@@ -45,7 +51,9 @@
                 <ul id="ul"></ul>
             </div>
         </div>
-        <div class="tile"></div>
+        <div class="tile">
+            <div class="app" id="calendar"></div>
+        </div>
         <div class="tile">
             <div class="app" id="time" ></div>
         </div>
@@ -54,5 +62,7 @@
     <script src="js/calculator.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/time.js"></script>
+    <script src="js/calendar.js"></script>
+    <script src="js/draw.js"></script>
 </body>
 </html>
