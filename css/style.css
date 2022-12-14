@@ -131,7 +131,6 @@ canvas {
 #ul {
     overflow-y: scroll;
     margin: 1vh 1vw;
-    padding: 1vh 0;
     list-style: none;
 }
 
